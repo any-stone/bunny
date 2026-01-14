@@ -25,6 +25,14 @@ int main (int argc, char** argv)
     //Bunny's tail
     SSDL_RenderFillCircle       (370, 360, 15);
 
+    //Bunny's ears
+    SSDL_RenderFillRect         (260, 120, 25, 60);
+    SSDL_RenderFillRect         (320, 120, 25, 60);
+
+    //Top parts of bunny's ears
+    SSDL_RenderFillCircle       (272, 120, 12);
+    SSDL_RenderFillCircle       (332, 120, 12);
+
     SSDL_WaitKey (); //Waiting for user to hit any key
     
     return 0;
