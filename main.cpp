@@ -9,9 +9,9 @@ int main (int argc, char** argv)
     SSDL_SetWindowTitle ("Just a little bunny");
 
     //Setting up colors for the picture
-    SSDL_Color LILAC_SKY = SSDL_CreateColor (200, 190, 230);
-    SSDL_Color CREAM_FUR = SSDL_CreateColor (255, 253, 240);
-    SSDL_Color INDIGO    = SSDL_CreateColor (75, 0, 130); 
+    const  SSDL_Color LILAC_SKY = SSDL_CreateColor (200, 190, 230);
+    const SSDL_Color CREAM_FUR = SSDL_CreateColor (255, 253, 240);
+    const SSDL_Color INDIGO    = SSDL_CreateColor (75, 0, 130); 
 
     //Paint the backrgound
     SSDL_RenderClear (LILAC_SKY);
